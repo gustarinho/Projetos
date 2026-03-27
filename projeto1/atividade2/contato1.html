@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contato1.css">
+    <title>Document</title>
+</head>
+
+<body>
+   <header class="apresentacao">
+    <nav class="menu">
+            <div class="logo"> <img src="./asests/Logo-branco.png" alt="logo">
+            </div>
+            <div class="navegacao2">
+            <a class="navegacao" href="#">Blog</a>
+            <a class="navegacao" href="#">Pacotes de Viagens</a>
+            <a class="navegacao" href="#">Contato</a>
+            </div>
+        </nav>
+   </header> 
+<section class="contact form-section">
+    <div class="section-title">
+        <h2>Preencha o Formulário</h2>
+        <hr /> 
+    </div>
+    <p class="contact-intro">
+        Para entrar em contato conosco, 
+        preencha o formulário abaixo
+        e responderemos o mais breve possível.
+    </p>
+    <form class="contact-form" id="contactForm" action="https://formspree.io/f/xjgenpkk"
+  method="POST" novalidate>
+    <div class="field">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" 
+        placeholder="Digite seu nome" required />
+    </div>
+    <div class="field">
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" name="telefone" 
+        placeholder="Digite seu telefone" required />
+    </div>
+    <div class="field">
+        <label for="email">E-mail:</label>
+        <input type="text" id="email" name="email" 
+        placeholder="Digite seu e-mail" required />
+    </div>
+        <div class="field">
+        <label for="assunto">Assunto:</label>
+        <input type="text" id="assunto" name="assunto" 
+        placeholder="Digite o assunto" required />
+    </div>
+    <div class="field">
+        <label for="msg">Mensagem:</label>
+        <input type="textarea" id="msg" name="msg" 
+        placeholder="Digite sua mensagem" rows="4" required />
+    </div>
+    <button class="button button-submit" type="submit">Enviar</button>
+    <button class="button button-reset"  type="reset">Limpar</button>
+</form>
+</section>
+<footer>
+
+</footer>
+<script src="contato1.js"></script>
+</body>
+</html>

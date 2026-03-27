@@ -1,0 +1,129 @@
+body {
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.cabecalho{
+    background-color: #000000;
+}
+menu{
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+    justify-content:space-between;
+}
+.navegacao{
+    color: white;
+    text-decoration: none;
+}
+.navegacao2{
+    display: flex;
+    gap: 20px;
+}
+/* Container do Formulário */
+.contact-section {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.section-title h2 {
+    color: #333;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.section-title hr {
+    border: 0;
+    height: 2px;
+    background: #007bff;
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.contact-intro {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Estilização dos Campos (Fields) */
+.field {
+    margin-bottom: 20px;
+}
+
+.field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.field input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box; /* Garante que o padding não aumente o tamanho do campo */
+    transition: border-color 0.3s ease;
+}
+.field textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box; /* Garante que o padding não aumente o tamanho do campo */
+    resize: vertical;
+    min-height: 150px;
+}
+/* Efeito ao clicar no campo (Focus) */
+.field input:focus, .field textarea:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+
+/* Botões */
+.form-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-submit {
+    background-color: #007bff;
+    color: white;
+}
+
+.button-submit:hover {
+    background-color: #0056b3;
+}
+
+.button-reset {
+    background-color: #e2e2e2;
+    color: #333;
+}
+
+.button-reset:hover {
+    background-color: #d2d2d2;
+}
